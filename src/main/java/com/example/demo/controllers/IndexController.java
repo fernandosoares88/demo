@@ -8,7 +8,7 @@ public class IndexController {
 	
 	@RequestMapping("/")
 	public String index() {
-		System.out.println("Chamou o meu método index do IndexController");
+		System.out.println("Chamou o meu método index do IndexController - Agora editado");
 		return "home";
 	}
 
