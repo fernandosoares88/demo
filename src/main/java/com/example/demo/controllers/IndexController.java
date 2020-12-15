@@ -11,5 +11,11 @@ public class IndexController {
 		System.out.println("Chamou o meu método index do IndexController - Agora editado");
 		return "home";
 	}
+	
+	@RequestMapping("/ajuda")
+	public String ajuda() {
+		System.out.println("Chamou a página de ajuda");
+		return "ajuda";
+	}
 
 }
